@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Queen Attack</title>
+  </head>
+  <body class="container">
+    <h3>Queen Attack</h3>
+    <form id="coordinates">
+      <label for="queen_x_coord">Queen's x Coordinate</label>
+      <input type="text" id="queen_x_coord" placeholder="Queen X">
+      <br>
+      <label for="queen_y_coord">Queen's y Coordinate</label>
+      <input type="text" id="queen_y_coord" placeholder="Queen Y">
+      <br>
+      <label for="other_x_coord">Piece's x Coordinate</label>
+      <input type="text" id="other_x_coord" placeholder="Other X">
+      <br>
+      <label for="other_y_coord">Piece's y Coordinate</label>
+      <input type="text" id="other_y_coord" placeholder="Other Y">
+      <br>
+      <button type="submit" class="btn">Check</button>
+    </form>
+
+    <div id="result">
+      <p>The queen can <span class="not"></span> attack the other piece.</p>
+    </div>
+  </body>
+</html>
